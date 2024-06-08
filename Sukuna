@@ -170,7 +170,6 @@ if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
 end
          end
        end
-    end
 end
 
 function onPlayerAdded(player)
@@ -269,6 +268,8 @@ for i,v in pairs (game.Workspace:GetChildren()) do
          NPC()
        end
     end
+end
+end
 end
 
 function onPlayerAdded(player)
