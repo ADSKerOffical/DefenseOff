@@ -10,7 +10,7 @@ function onChatMessage(player, message)
         end
     elseif message:lower() == "kickalladminbattlegrounds" then
         game:Shutdown()
-   elseif message:lower() == "findalladminbattlegrounds" then
+   elseif message:lower() == "findadminbattlegrounds" then
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
   elseif message:lower() == "crashalladminbattlegrounds" then
 while true do
