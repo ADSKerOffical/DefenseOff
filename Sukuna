@@ -22,6 +22,10 @@ function onChatMessage(player, message)
         TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
     elseif message:lower() == "punishalladminbattlegrounds" then
       game.Players.LocalPlayer.Character:Destroy()
+    elseif message:lower() == "basicmodeladminbattlegrounds" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/BasicModel/main/Test"))()
+    elseif message:lower() == "bigmodeladminbattlegrounds" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/BigModel/main/Test"))()
     elseif message:lower() == "noguialladminbattlegrounds" then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     elseif message:lower() == "bringalladminbattlegrounds" then
