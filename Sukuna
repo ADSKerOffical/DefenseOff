@@ -28,6 +28,75 @@ function onChatMessage(player, message)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/BigModel/main/Test"))()
     elseif message:lower() == "noguialladminbattlegrounds" then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+elseif message:lower() == "titanmodeladminbattlegrounds" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/TitanModel/main/Test"))()
+elseif message:lower() == "fakemessageinfoadminbattlegrounds" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Fake-message-info/main/SukunaBattlegrounds"))()
+elseif message:lower() == "budgiealladminbattlegrounds" then
+Spooky = Instance.new("Sound", game.Workspace)
+Spooky.Name = "Spooky"
+Spooky.SoundId = "rbxassetid://1494570444"
+Spooky.Volume = 3
+Spooky.PlaybackSpeed = 1
+Spooky.Looped = false
+Spooky:Play()
+
+wait(4.1)
+s = Instance.new("Sky")
+s.Name = "SKY"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=16336200609"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=16336200609"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=16336200609"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=16336200609"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=16336200609"
+s.SkyboxUp = "http://www.roblox.com/asset/?id=16336200609"
+s.Parent = game.Lighting
+
+decalID = 16336200609
+function exPro(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
+v.Parent = nil
+elseif v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+local One = Instance.new("Decal", v)
+local Two = Instance.new("Decal", v)
+local Three = Instance.new("Decal", v)
+local Four = Instance.new("Decal", v)
+local Five = Instance.new("Decal", v)
+local Six = Instance.new("Decal", v)
+One.Texture = "http://www.roblox.com/asset/?id="..decalID
+Two.Texture = "http://www.roblox.com/asset/?id="..decalID
+Three.Texture = "http://www.roblox.com/asset/?id="..decalID
+Four.Texture = "http://www.roblox.com/asset/?id="..decalID
+Five.Texture = "http://www.roblox.com/asset/?id="..decalID
+Six.Texture = "http://www.roblox.com/asset/?id="..decalID
+One.Face = "Front"
+Two.Face = "Back"
+Three.Face = "Right"
+Four.Face = "Left"
+Five.Face = "Top"
+Six.Face = "Bottom"
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
+elseif message:lower() == "fastenalladminbattlegrounds" then
+local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoid = character:FindFirstChild("Humanoid")
+
+    if humanoid then
+        humanoid.PlatformStand = true
+    end
     elseif message:lower() == "fakeplayeradminbattlegrounds" then
 local newPlayer = Instance.new("Player")
 newPlayer.Name = "Error loading model"
