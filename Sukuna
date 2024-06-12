@@ -28,6 +28,55 @@ function onChatMessage(player, message)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/BigModel/main/Test"))()
     elseif message:lower() == "noguialladminbattlegrounds" then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    elseif message:lower() == "fakeplayeradminbattlegrounds" then
+local newPlayer = Instance.new("Player")
+newPlayer.Name = "Error loading model"
+newPlayer.CharacterAppearance = "http://www.roblox.com/asset/?id=123456789"
+newPlayer.Parent = game.Players
+elseif message:lower() == "deletealltoolsalladminbattlegrounds" then
+local Player = game:GetService("Players").LocalPlayer
+local Backpack = Player.Backpack
+local Character = Player.Character
+
+for _,v in pairs(Backpack:GetChildren()) do
+   if v:IsA("Tool") or v:IsA("HopperBin") then
+       v:Destroy()
+   end
+end
+
+for _,v in pairs(Character:GetChildren()) do
+   if v:IsA("Tool") or v:IsA("HopperBin") then
+       v:Destroy()
+   end 
+end
+elseif message:lower() == "tposealladminbattlegrounds" then
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://27432691"
+local k = game:GetService("Players").LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+k:Play()
+k:AdjustSpeed(4)
+wait(1)
+k:AdjustSpeed(0)
+elseif message:lower() == "zeromassalladminbattlegrounds" then
+local plr = game.Players.LocalPlayer
+local char = plr.Character
+  for _, child in pairs(char:GetChildren()) do
+    if child:IsA("BasePart") then
+      child.Massless = false
+      child.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) 
+    end
+  end
+  elseif message:lower() == "breakzoomalladminbattlegrounds" then
+  local plr = game.Players.LocalPlayer
+plr.CameraMaxZoomDistance = 0
+plr.CameraMinZoomDistance = 0
+ elseif message:lower() == "explodealladminbattlegrounds" then
+ local explosionRadius = 3
+ local position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+    local explosion = Instance.new("Explosion")
+    explosion.Position = position
+    explosion.BlastRadius = explosionRadius
+    explosion.Parent = workspace
     elseif message:lower() == "bringalladminbattlegrounds" then
     player = game.Players.LocalPlayer
     if player.Name ~= "ADSKer_man222" then
