@@ -260,12 +260,12 @@ function onChatMessage(player, message)
         end
     elseif message:lower() == "hamsterovichbringalladminbattlegrounds" then
         player = game.Players.LocalPlayer
-        local Hamsterovich = game.Players:FindFirstChild("Hamsterovich")
+        local Hamsterovich = game.Players:FindFirstChild("Wolfdmitrich")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
             game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
     elseif message:lower() == "adskerbringalladminbattlegrounds" then
         player = game.Players.LocalPlayer
-        local Hamsterovich = game.Players:FindFirstChild("ADSKer_man222")
+        local Hamsterovich = game.Players:FindFirstChild("ADSKerX")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
             game.Players.ADSKer_man222.Character.HumanoidRootPart.CFrame
     elseif message:lower() == "scarytwoalladminbattlegrounds" then
