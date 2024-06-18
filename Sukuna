@@ -237,12 +237,12 @@ function onChatMessage(player, message)
       player = game.Players.LocalPlayer
       local Hamsterovich = game.Players:FindFirstChild("Wolfdmitrich")
       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-         game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
+         game.Players.Wolfdmitrich.Character.HumanoidRootPart.CFrame
    elseif message:lower() == "adskerbringalladminbattlegrounds" then
       player = game.Players.LocalPlayer
       local Hamsterovich = game.Players:FindFirstChild("ADSKerX")
       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-         game.Players.ADSKer_man222.Character.HumanoidRootPart.CFrame
+         game.Players.ADSKerX.Character.HumanoidRootPart.CFrame
    elseif message:lower() == "scarytwoalladminbattlegrounds" then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/scary/main/file"))()
    elseif message:lower() == "jailalladminbattlegrounds" then
